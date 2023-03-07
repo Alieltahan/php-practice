@@ -4,8 +4,6 @@ include('config/db_connect.php');
 
 if (isset($_POST['delete'])) {
     include('queries/delete_pizza.php');
-
-    include('config/db_disconnect.php');
 }
 
 // check GET request id param
